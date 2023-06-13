@@ -73,6 +73,18 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.home-content{
+  padding: 20px;
+}
+.home-content h1{
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+.home-content h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+}
 footer{
   text-align: center;
 }
