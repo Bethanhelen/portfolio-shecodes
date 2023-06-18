@@ -95,6 +95,20 @@ p {
   font-size: 14px;
   font-family: var(--default-font-family);
 }
+
+nav ul li a{
+  text-decoration: none;
+  color: #272142;
+}
+nav ul li a:hover{
+  color: #6c63ff;
+}
+nav li{
+  display: inline; 
+}
+.heading{
+  font-family: var(--default-font-family);
+}
 footer{
   text-align: center;
 }
