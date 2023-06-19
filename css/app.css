@@ -163,6 +163,10 @@ footer .social-links a:hover{
   color: white;
   background-color: var(--branding-color);
 }
+
+.github a{
+  text-decoration: none;
+}
 /*------------media queries---------------------*/
 @media (max-width:576px){
 .home-content{
