@@ -101,13 +101,22 @@ nav ul li a{
   color: #272142;
 }
 nav ul li a:hover{
-  color: #6c63ff;
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 nav li{
   display: inline; 
+  line-height: 64px;
+  list-style: none;
+}
+nav li.active a{
+  color: var(--branding-color);
 }
 .heading{
   font-family: var(--default-font-family);
+}
+.logo{
+ margin-top: 10px;
 }
 footer{
   text-align: center;
@@ -116,5 +125,10 @@ footer{
 .home-content{
   text-align: center;
 }
-
+nav ul li a{
+  font-size: 16px;
+}
+nav li{
+  line-height:74px;
+}
 }
